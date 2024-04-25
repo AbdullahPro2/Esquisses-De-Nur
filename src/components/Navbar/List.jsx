@@ -23,8 +23,10 @@ function List() {
         />
       )}
       <ul
-        className={`absolute right-0 top-0 flex h-screen w-[0px] flex-col items-center justify-center gap-16 overflow-hidden bg-[#FFF0F5]  transition-all duration-300 xl:right-6 xl:top-[30%] xl:h-auto xl:w-auto xl:flex-row xl:items-start xl:justify-end  xl:gap-8 xl:bg-transparent xl:px-2 xl:text-lg ${
-          isOpen ? 'w-[50%] ' : ''
+        className={`absolute right-0 top-0 flex h-screen w-[0px] flex-col items-center justify-center gap-16 overflow-hidden transition-all duration-500 xl:right-6 xl:top-[30%] xl:h-auto xl:w-auto xl:flex-row xl:items-start xl:justify-end  xl:gap-8 xl:bg-transparent xl:px-2 xl:text-lg ${
+          isOpen
+            ? 'w-[100%] border-l-2  border-white bg-gradient-to-b from-pink-300 via-pink-200 to-pink-100 '
+            : ''
         } `}
       >
         <ListItem

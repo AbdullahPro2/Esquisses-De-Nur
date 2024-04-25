@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 function Logo() {
   return (
     <NavLink to="/EsquissesDeNur/">
-      <img src={LogoDeSite} alt="LOGO De Site" className="w-32" />
+      <img src={LogoDeSite} alt="LOGO De Site" className="w-32 lg:w-40" />
     </NavLink>
   );
 }
