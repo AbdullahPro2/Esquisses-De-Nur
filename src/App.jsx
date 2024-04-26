@@ -3,7 +3,6 @@ import Layout from './Layout.jsx/Layout';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
-import Gallery from './pages/Gallery';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 
@@ -29,10 +28,7 @@ function App() {
           path: '/EsquissesDeNur/about',
           element: <About />,
         },
-        {
-          path: '/EsquissesDeNur/gallery',
-          element: <Gallery />,
-        },
+
         {
           path: '/EsquissesDeNur/blog',
           element: <Blog />,

@@ -5,13 +5,15 @@ import Footer from '../components/Footer';
 
 function Layout() {
   return (
-    <>
-      <main className="min-h-screen bg-gradient-to-b from-pink-200 via-pink-100 to-pink-50">
+    <div className=" bg-gradient-to-b from-pink-200 via-pink-100 to-pink-50">
+      <main className="min-h-screen ">
         <Navbar />
-        <Outlet />
+        <div className="overflow-x-hidden">
+          <Outlet />
+        </div>
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

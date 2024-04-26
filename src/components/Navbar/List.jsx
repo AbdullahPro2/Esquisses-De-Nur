@@ -48,8 +48,8 @@ function List() {
           isOpen={isOpen}
         />
         <ListItem
-          to="/EsquissesDeNur/gallery"
-          list="Gallery"
+          to="/EsquissesDeNur/about"
+          list="About Me"
           onSetIsOpen={setIsOpen}
           isOpen={isOpen}
         />
@@ -58,12 +58,6 @@ function List() {
           list="Contact Me"
           isOpen={isOpen}
           onSetIsOpen={setIsOpen}
-        />
-        <ListItem
-          to="/EsquissesDeNur/about"
-          list="About Me"
-          onSetIsOpen={setIsOpen}
-          isOpen={isOpen}
         />
       </ul>
     </nav>
