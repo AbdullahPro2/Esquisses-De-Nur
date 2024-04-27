@@ -3,8 +3,8 @@ import artist from '../../assets/Home/artist.jpg';
 import ButtonP from '../buttons/ButtonP';
 import Aos from 'aos';
 function Intro() {
-  Aos.init();
-  Aos.refresh();
+  // Aos.init();
+  // Aos.refresh();
   return (
     <section className="flex flex-col gap-12 lg:flex-row">
       <div

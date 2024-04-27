@@ -11,7 +11,7 @@ function ZPattern() {
           className=" px-1 text-center text-xl font-semibold text-stone-700 md:flex-row md:text-2xl lg:px-12 lg:text-3xl xl:text-4xl xl:font-bold
         "
         >
-          Design Philosophy Showcase
+          Philosophy Behind My Designs
         </h1>
         <div className="mx-auto mt-4 h-1 w-20 bg-stone-800 "></div>
       </div>

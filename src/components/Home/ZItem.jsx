@@ -2,17 +2,17 @@ import React from 'react';
 import Aos from 'aos';
 
 function ZItem({ heading, text, image, icon, imageFirst }) {
-  Aos.init();
-  Aos.refresh();
+  // Aos.init();
+  // Aos.refresh();
   return (
     <div className="my-10 flex flex-col  px-5 md:flex-row lg:px-12 ">
       <div
         className={`${imageFirst ? 'md:order-2' : ''} flex flex-col justify-center  md:w-1/2`}
       >
-        <h1 className="mb-2 text-base font-medium md:text-lg md:font-semibold lg:text-xl xl:text-2xl">
+        <h1 className="mb-2 text-center text-lg font-semibold md:text-lg md:font-semibold lg:text-xl xl:text-2xl">
           {heading}
         </h1>
-        <p className="mb-2  text-justify text-sm md:text-base lg:text-lg ">
+        <p className="mb-2  text-center text-sm md:text-base lg:text-lg ">
           {text}
         </p>
       </div>
