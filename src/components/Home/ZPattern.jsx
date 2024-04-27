@@ -11,28 +11,28 @@ function ZPattern() {
           className=" px-1 text-center text-xl font-semibold text-stone-700 md:flex-row md:text-2xl lg:px-12 lg:text-3xl xl:text-4xl xl:font-bold
         "
         >
-          Philosophy Behind My Designs
+          Philosophie Derrière Mes Créations
         </h1>
         <div className="mx-auto mt-4 h-1 w-20 bg-stone-800 "></div>
       </div>
       <div>
         <ZItem
-          heading="Creative Design"
-          text="Explore a world of boundless imagination with my creative designs. As a passionate student of clothing design, I infuse each piece with originality and innovation. From whimsical patterns to daring silhouettes, my designs reflect a fresh perspective and a fearless approach to fashion."
+          heading="Conception Créative"
+          text="Explorez un monde d'imagination sans limites avec mes créations originales. En tant qu'étudiant passionné en design vestimentaire, j'insuffle à chaque pièce de l'originalité et de l'innovation. Des motifs fantaisistes aux silhouettes audacieuses, mes créations reflètent une perspective fraîche et une approche intrépide de la mode."
           image={creativeImage}
           icon
           imageFirst={false}
         />
         <ZItem
-          heading="Attention to Detail"
-          text="Experience the meticulous craftsmanship behind each of my clothing design drawings. With a keen eye for detail, I meticulously render every stitch, fold, and fabric texture to perfection. Through careful observation and precision, I ensure that every aspect of my designs exudes quality and refinement."
+          heading="Attention aux Détails"
+          text="Découvrez le travail méticuleux derrière chacun de mes dessins de design vestimentaire. Avec un œil attentif pour les détails, je rends méticuleusement chaque point, pli et texture de tissu à la perfection. Grâce à une observation minutieuse et une précision, je m'assure que chaque aspect de mes créations respire la qualité et le raffinement."
           image={detailImage}
           icon
           imageFirst
         />
         <ZItem
-          heading="Personal Style"
-          text="Discover the unique essence of my personal style woven into every clothing design drawing. As a student of fashion, I embrace my individuality and express it through my distinct design aesthetic. Whether it's through vibrant color palettes, intricate embellishments, or unexpected design elements, my creations embody the essence of who I am as an artist."
+          heading="Style Personnel"
+          text="Découvrez l'essence unique de mon style personnel tissée dans chaque dessin de design vestimentaire. En tant qu'étudiant en mode, j'embrasse mon individualité et l'exprime à travers mon esthétique de design distincte. Que ce soit à travers des palettes de couleurs vibrantes, des embellissements complexes ou des éléments de design inattendus, mes créations incarnent l'essence de qui je suis en tant qu'artiste."
           image={personalImage}
           icon
           imageFirst={false}
