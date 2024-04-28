@@ -42,6 +42,9 @@ function App() {
       ],
     },
   ]);
+  router.subscribe((location) => {
+    window.scrollTo(0, 0);
+  });
   return <RouterProvider router={router} />;
 }
 
