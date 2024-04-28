@@ -109,7 +109,7 @@ function Contact() {
               <input
                 type="hidden"
                 name="redirect"
-                value="https://esquisses-de-nur.netlify.app/"
+                value="https://esquisses-de-nur.netlify.app/thanksforcontacting"
               ></input>
               <button
                 type="submit"
