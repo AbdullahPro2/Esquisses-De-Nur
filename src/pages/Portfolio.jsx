@@ -26,12 +26,14 @@ function Portfolio() {
         <div className="mx-auto mt-4 h-1 w-20 bg-stone-800 "></div>
       </div>
       <div className="container mx-auto mt-10  columns-2 lg:columns-3 xl:columns-4">
-        <PortfolioItem
-          text="Experience the meticulous craftsmanship behind each of my clothing design drawings. With a keen eye for detail, I meticulously render every stitch, fold, and fabric texture to perfection. Through careful observation and precision, I ensure that every aspect of my designs exudes quality and refinement.
+        <div>
+          <PortfolioItem
+            text="Experience the meticulous craftsmanship behind each of my clothing design drawings. With a keen eye for detail, I meticulously render every stitch, fold, and fabric texture to perfection. Through careful observation and precision, I ensure that every aspect of my designs exudes quality and refinement.
 "
-          image={photo_1}
-          heading="Aesthetic Coban Skirt"
-        />
+            image={photo_1}
+            heading="Aesthetic Coban Skirt"
+          />
+        </div>
         <PortfolioItem
           text="Experience the meticulous craftsmanship behind each of my clothing design drawings. With a keen eye for detail, I meticulously render every stitch, fold, and fabric texture to perfection. Through careful observation and precision, I ensure that every aspect of my designs exudes quality and refinement."
           image={photo_3}
