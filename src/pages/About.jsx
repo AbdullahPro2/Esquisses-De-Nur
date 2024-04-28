@@ -6,7 +6,7 @@ function About() {
   Aos.init();
   Aos.refresh();
   return (
-    <div>
+    <div className="mb-10">
       <div className="relative mx-auto  bg-[#c5b9fa] opacity-80 ">
         <img
           src={aboutHero}
