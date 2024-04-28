@@ -39,7 +39,12 @@ function Contact() {
             </p>
           </div>
           <div className="contact-us-form">
-            <form action="#">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input
+                type="hidden"
+                name="access_key"
+                value="a12de647-b2a1-4d15-8876-caf558070861"
+              ></input>
               <label htmlFor="name" className="para mb-6 md:text-lg">
                 Name
               </label>
@@ -60,6 +65,16 @@ function Contact() {
                 placeholder="Email"
                 className="para w-full border border-solid border-stone-400 px-4 py-2"
               />
+              <label htmlFor="phone" className="para mb-6 md:text-lg">
+                Phone
+              </label>
+              <input
+                type="text"
+                id="phone"
+                name="phone"
+                placeholder="Phone"
+                className="para w-full border border-solid border-stone-400 px-4 py-2"
+              />
               <label htmlFor="message" className="para mb-6 md:text-lg">
                 Message
               </label>
@@ -71,6 +86,11 @@ function Contact() {
                 placeholder="Message"
                 className="para w-full border border-solid border-stone-400 px-4 py-2 md:text-lg"
               ></textarea>
+              <input
+                type="hidden"
+                name="redirect"
+                value="https://web3forms.com/success"
+              ></input>
               <button
                 type="submit"
                 className="send-message text-1.76xl mt-16 w-full cursor-pointer border-0 bg-stone-600  px-6 py-4 text-center font-normal leading-loose text-pink-50 hover:bg-pink-500"
