@@ -1,6 +1,9 @@
+import Aos from 'aos';
 import React from 'react';
 
 function Contact() {
+  Aos.init();
+  Aos.refresh();
   return (
     <>
       <section className="contact mb-40 ">
@@ -9,7 +12,11 @@ function Contact() {
         </h1>
         <div className="mx-auto mt-4 h-1 w-20 bg-stone-800 "></div>
         <div className="mt-10 grid grid-cols-1 gap-8 px-9 md:grid-cols-2">
-          <div className="about-us">
+          <div
+            className="about-us"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <h6 className="h6 mb-3 text-lg font-semibold md:text-xl">
               We would love to hear from you.
             </h6>
@@ -38,7 +45,11 @@ function Contact() {
               Alexandria, Virginia 22312
             </p>
           </div>
-          <div className="contact-us-form">
+          <div
+            className="contact-us-form"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             <form action="https://api.web3forms.com/submit" method="POST">
               <input
                 type="hidden"
@@ -49,6 +60,7 @@ function Contact() {
                 Name
               </label>
               <input
+                required
                 type="text"
                 id="name"
                 name="name"
@@ -59,6 +71,7 @@ function Contact() {
                 Email
               </label>
               <input
+                required
                 type="email"
                 id="email"
                 name="email"
@@ -69,6 +82,7 @@ function Contact() {
                 Phone
               </label>
               <input
+                required
                 type="text"
                 id="phone"
                 name="phone"
@@ -79,6 +93,7 @@ function Contact() {
                 Message
               </label>
               <textarea
+                required
                 name="message"
                 id="message"
                 cols="10"
@@ -86,10 +101,15 @@ function Contact() {
                 placeholder="Message"
                 className="para w-full border border-solid border-stone-400 px-4 py-2 md:text-lg"
               ></textarea>
-              <input
+              {/* <input
                 type="hidden"
                 name="redirect"
                 value="https://web3forms.com/success"
+              ></input> */}
+              <input
+                type="hidden"
+                name="redirect"
+                value="https://esquisses-de-nur.netlify.app/"
               ></input>
               <button
                 type="submit"

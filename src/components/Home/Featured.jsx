@@ -35,7 +35,7 @@ function Featured() {
       </div>
       <ButtonP
         text="Explorez Ma Collection &rarr;"
-        to="/EsquissesDeNur/portfolio"
+        to="/portfolio"
         styles="mx-auto"
       />
     </div>

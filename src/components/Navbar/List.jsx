@@ -29,32 +29,27 @@ function List() {
             : ''
         } `}
       >
+        <ListItem to="/" list="Home" onSetIsOpen={setIsOpen} isOpen={isOpen} />
         <ListItem
-          to="/EsquissesDeNur/"
-          list="Home"
-          onSetIsOpen={setIsOpen}
-          isOpen={isOpen}
-        />
-        <ListItem
-          to="/EsquissesDeNur/portfolio"
+          to="/portfolio"
           list="Portfolio"
           onSetIsOpen={setIsOpen}
           isOpen={isOpen}
         />
         <ListItem
-          to="/EsquissesDeNur/blog"
+          to="/blog"
           list="Blog"
           onSetIsOpen={setIsOpen}
           isOpen={isOpen}
         />
         <ListItem
-          to="/EsquissesDeNur/about"
+          to="/about"
           list="About Me"
           onSetIsOpen={setIsOpen}
           isOpen={isOpen}
         />
         <ListItem
-          to="/EsquissesDeNur/contact"
+          to="/contact"
           list="Contact Me"
           isOpen={isOpen}
           onSetIsOpen={setIsOpen}

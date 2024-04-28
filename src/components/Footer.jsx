@@ -4,11 +4,14 @@ import facebook from '../assets/Footer/facebook.png';
 import instagram from '../assets/Footer/instagram.png';
 import twitter from '../assets/Footer/twitter.png';
 import pinterest from '../assets/Footer/pinterest.png';
+import { NavLink } from 'react-router-dom';
 function Footer() {
   return (
     <footer className="bg-pink-100 py-6 text-stone-700">
       <div className="mx-auto flex flex-col items-center justify-between px-6 lg:flex-row lg:items-center lg:justify-between">
-        <img src={Logo} alt="logo" />
+        <NavLink to="/">
+          <img src={Logo} alt="logo" />
+        </NavLink>
         <div className="mt-5">
           <a href="https://github.com/AbdullahPro2" target="_blank">
             <h3 className="mb-4 text-center text-lg">Follow Me</h3>

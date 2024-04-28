@@ -39,7 +39,7 @@ function Intro() {
           et ensemble, embarquons dans un voyage vers un monde plus beau et
           durable.
         </p>
-        <ButtonP text="Entrer en contact &rarr;" to="/EsquissesDeNur/contact" />
+        <ButtonP text="Entrer en contact &rarr;" to="/contact" />
       </div>
       <img
         src={artist}

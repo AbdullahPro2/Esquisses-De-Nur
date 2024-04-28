@@ -5,6 +5,7 @@ import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
+import Thankyou from './pages/Thankyou';
 
 function App() {
   const router = createBrowserRouter([
@@ -12,26 +13,31 @@ function App() {
       element: <Layout />,
       children: [
         {
-          path: '/EsquissesDeNur/',
+          path: '/',
           element: <Home />,
         },
         {
-          path: '/EsquissesDeNur/portfolio',
+          path: '/portfolio',
           element: <Portfolio />,
         },
 
         {
-          path: '/EsquissesDeNur/contact',
+          path: '/contact',
           element: <Contact />,
         },
         {
-          path: '/EsquissesDeNur/about',
+          path: '/about',
           element: <About />,
         },
 
         {
-          path: '/EsquissesDeNur/blog',
+          path: '/blog',
           element: <Blog />,
+        },
+
+        {
+          path: '/thanksforcontacting',
+          element: <Thankyou />,
         },
       ],
     },
