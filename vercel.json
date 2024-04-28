@@ -1,8 +1,8 @@
 {
     "rewrites": [
         {
-            "source": "/EsquissesDeNur/(.*)",
-            "destination": "/EsquissesDeNur/index.html"
+            "source": "/(.*)",
+            "destination": "/"
         }
     ]
 }
