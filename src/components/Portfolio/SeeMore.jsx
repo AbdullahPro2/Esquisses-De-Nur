@@ -6,8 +6,11 @@ function SeeMore({ image, text, setShowModal, heading }) {
   };
 
   return (
-    <div className="fixed left-0 top-0 z-50 flex h-full w-full items-center justify-center bg-black bg-opacity-75">
-      <div className="no-scrollbar relative mx-10 max-h-[90%] overflow-y-scroll rounded-lg bg-stone-100 p-4 lg:w-[80%] ">
+    <div
+      className="fixed left-0 top-0 z-50 flex h-full w-full items-center justify-center bg-black bg-opacity-75"
+      onClick={() => setShowModal(false)}
+    >
+      <div className="relative mx-10 max-h-[90%] overflow-y-scroll rounded-lg bg-stone-100 p-4 no-scrollbar lg:w-[80%] ">
         <img
           src={closeBtn}
           alt="close modal window icon"
