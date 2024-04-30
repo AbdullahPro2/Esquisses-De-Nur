@@ -48,8 +48,8 @@ function Blog() {
         "Chaque coup de pinceau raconte une histoire, chaque ligne sur la toile
         chuchote un secret. En tant qu'artiste créateur de dessins de vêtements
         pour filles, je tisse des rêves en réalité, créant des vêtements qui
-        parlent de beauté, de grâce et des possibilités infinies du style" — Nur
-        Fatima
+        parlent de beauté, de grâce et des possibilités infinies du style" —
+        Nour Ben Salah
       </h2>
       <h2 className="mt-4  text-justify font-medium  text-[#2C0707]">
         Et voilà un aperçu du processus créatif derrière l’une de mes

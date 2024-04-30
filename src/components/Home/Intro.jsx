@@ -18,28 +18,29 @@ function Intro() {
         data-aos-duration="2000"
       >
         <h1 className="text-center text-3xl font-bold italic text-stone-700  lg:text-5xl ">
-          Salut, <br /> Je suis Nur Fatima
+          Salut, <br /> Je suis Nour Ben Salah
         </h1>
         <p className="mx-auto text-center text-sm italic md:text-base  ">
           <br />
-          Bienvenue sur ma page d'accueil ! Je m'appelle Nur, une artiste
-          profondément connectée à la nature et à un style de vie naturel. Ici,
-          vous trouverez mon parcours créatif, où je suis constamment en
-          apprentissage, en expérimentation et en puisant l'inspiration dans le
-          monde qui m'entoure.
+          Bienvenue sur ma page d'accueil de mon projet de devenir styliste de
+          mode ! Je m'appelle Nour, je suis passionnée par l'univers de la mode
+          depuis toujours. Je suis ravi de partager avec vous mon parcours et
+          mon design. Mon amour pour la mode m'a conduit à explorer le demaine
+          du design de mode et à exprimer ma créativité à travers des croquis et
+          des concept de vêtement.
           <br />
           <br />
-          Dans mon travail, je m'efforce de voir la beauté dans l'ordinaire,
-          célébrant la magie de la vie quotidienne. À travers mon art, mon
-          objectif est de créer un avenir meilleur, où l'appréciation de la
-          nature et des joies simples qu'elle offre est centrale.
+          En tant que debutante , Je suis pleinement consciente de la necessite
+          d'apprendre et de développer mes compétences dans ce domaine
+          passionnant. À travers mon art, mon objectif est de créer un avenir
+          meilleur, où je pourrais fusionner mes talents artistiques avec ma
+          connaissance en design.
           <br />
           <br />
-          Joignez-vous à moi pour explorer l'harmonie entre l'art et la nature,
-          et ensemble, embarquons dans un voyage vers un monde plus beau et
-          durable.
+          Joignez-vous à moi pour explorer l'harmonie dans l'art, ensemble,
+          embarquons dans un voyage vers un monde plus beau et durable.
         </p>
-        <ButtonP text="Entrer en contact &rarr;" to="/contact" />
+        <ButtonP text="Explorez Ma Collection &rarr;" to="/portfolio" />
       </div>
       <img
         src={artist}

@@ -42,18 +42,18 @@ function List() {
           onSetIsOpen={setIsOpen}
           isOpen={isOpen}
         />
-        <ListItem
+        {/* <ListItem
           to="/about"
           list="About Me"
           onSetIsOpen={setIsOpen}
           isOpen={isOpen}
-        />
-        <ListItem
+        /> */}
+        {/* <ListItem
           to="/contact"
           list="Contact Me"
           isOpen={isOpen}
           onSetIsOpen={setIsOpen}
-        />
+        /> */}
       </ul>
     </nav>
   );
