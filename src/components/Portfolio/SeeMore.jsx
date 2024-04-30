@@ -19,15 +19,15 @@ function SeeMore({ image, text, setShowModal, heading }) {
         />
         {/* For mobiles */}
         <div className="mt-10 lg:hidden ">
-          <h2 className=" text-center text-lg font-bold text-stone-700 ">
+          {/* <h2 className=" text-center text-lg font-bold text-stone-700 ">
             {heading}
-          </h2>
+          </h2> */}
           <img
             src={image}
             className=" mx-auto  mt-4 h-auto w-auto rounded-lg lg:order-1 lg:mx-0 "
             alt="Portfolio Item "
           />
-          <p className=" mt-4 text-center text-stone-700 ">{text}</p>
+          {/* <p className=" mt-4 text-center text-stone-700 ">{text}</p> */}
         </div>
         {/* For larger screen (lg) */}
         <div className=" mt-10 hidden lg:flex lg:justify-center">
@@ -36,13 +36,13 @@ function SeeMore({ image, text, setShowModal, heading }) {
             className=" mx-auto  mt-4 h-auto w-auto max-w-[50%] rounded-lg lg:mx-0 "
             alt="Portfolio Item "
           />
-          <div className="flex max-w-[50%]  flex-col items-center p-10">
+          {/* <div className="flex max-w-[50%]  flex-col items-center p-10">
             <h2 className=" mt-8 text-center text-2xl font-bold text-stone-700  ">
               {heading}
             </h2>
 
             <p className="mt-8  text-justify text-lg text-stone-700 ">{text}</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

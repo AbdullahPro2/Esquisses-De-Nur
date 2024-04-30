@@ -14,7 +14,7 @@ function PortfolioItem({ image, text, heading }) {
         data-aos="fade-up"
         data-aos-duration="1000"
       />
-      {/* <div className="absolute inset-0 flex items-center justify-center bg-stone-700 bg-opacity-50 opacity-100 transition-opacity duration-300 ">
+      <div className="absolute inset-0 flex items-center justify-center bg-stone-700 bg-opacity-50 opacity-0 transition-opacity duration-300 hover:opacity-100 ">
         <button>
           <img
             src={zoom}
@@ -23,15 +23,15 @@ function PortfolioItem({ image, text, heading }) {
             className="w-12 opacity-80 "
           />
         </button>
-      </div> */}
-      {/* {seeMore && (
+      </div>
+      {seeMore && (
         <SeeMore
           image={image}
           text={text}
           setShowModal={setSeeMore}
           heading={heading}
         />
-      )} */}
+      )}
     </div>
   );
 }
