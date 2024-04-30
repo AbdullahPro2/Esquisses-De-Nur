@@ -11,7 +11,7 @@ function Blog() {
       <div className="mt-16 flex items-center gap-6">
         <img src={avatar} alt="Author avatar" className="w-16" />
         <div>
-          <p className="text-xl font-bold">Nur Faitma</p>
+          <p className="text-xl font-bold">Nour Ben Salah</p>
           <p className="text-lg font-semibold">
             Publié: Avril 28, 2024 - 2 minutes de lecture
           </p>
