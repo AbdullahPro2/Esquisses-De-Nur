@@ -1,16 +1,16 @@
 import React from 'react';
 import PortfolioItem from '../components/Portfolio/PortfolioItem';
-import photo_1 from '../assets/Portfolio/Photo_1.jpg';
-import photo_2 from '../assets/Portfolio/Photo_2.jpg';
-import photo_3 from '../assets/Portfolio/Photo_3.jpg';
-import photo_4 from '../assets/Portfolio/Photo_4.jpg';
-import photo_5 from '../assets/Portfolio/Photo_5.jpg';
-import photo_6 from '../assets/Portfolio/Photo_6.jpg';
-import photo_7 from '../assets/Portfolio/Photo_7.jpg';
-import photo_8 from '../assets/Portfolio/Photo_8.jpg';
-import photo_9 from '../assets/Portfolio/Photo_9.jpg';
-import photo_10 from '../assets/Portfolio/Photo_10.jpg';
-import photo_11 from '../assets/Portfolio/Photo_11.jpg';
+import photo_1 from '../assets/Portfolio/photo_1.jpg';
+import photo_2 from '../assets/Portfolio/photo_2.jpg';
+import photo_3 from '../assets/Portfolio/photo_3.jpg';
+import photo_4 from '../assets/Portfolio/photo_4.jpg';
+import photo_5 from '../assets/Portfolio/photo_5.jpg';
+import photo_6 from '../assets/Portfolio/photo_6.jpg';
+import photo_7 from '../assets/Portfolio/photo_7.jpg';
+import photo_8 from '../assets/Portfolio/photo_8.jpg';
+import photo_9 from '../assets/Portfolio/photo_9.jpg';
+import photo_10 from '../assets/Portfolio/photo_10.jpg';
+import photo_11 from '../assets/Portfolio/photo_11.jpg';
 
 function Portfolio() {
   return (
